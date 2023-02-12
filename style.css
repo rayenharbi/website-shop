@@ -1,0 +1,81 @@
+body{
+    background-image: url("https://removal.ai/wp-content/uploads/2021/09/black-background-08-vecteezy.png") ;
+}
+.h1{
+    color: red;
+    text-align: center;
+}
+.grid-container {
+   /* display: grid;
+    row-gap: 50px;
+    grid-template-columns: 250px auto;
+    padding: 20px;
+    justify-content: center;*/
+    max-width: 800px;
+    
+    margin: auto;
+  }
+
+  
+  .grid-item {
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    background-color:white;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    
+    border-radius: 5px;
+    justify-items: end;
+}
+.grid-item img {margin: auto;}
+  .plus {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+
+  
+  }
+  
+  .minus:hover {background-color: red}
+
+  .minus {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+  
+  }
+  
+  .plus:hover{background-color: green}
+
+  h2{
+    color: red;
+    text-align: start;
+  }
+  .btnheart{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    font-size: 30px;
+    width: 50px;
+
+  }
+  #total-cost{background-color: white;}
